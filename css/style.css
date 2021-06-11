@@ -28,15 +28,15 @@ body {
     min-width: 33.33%;
     min-height: 33.33%;
     font-size: 100px;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
     padding: 10vh;
 }
 
-#website, #facebook, #twitter, #instagram {
+a {
     color: black;
-    text-align: center;
+}
+
+a:visited {
+    color: rgb(134, 35, 113);
 }
 
 #website:hover {
