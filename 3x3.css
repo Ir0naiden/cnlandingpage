@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
 
-* {box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-image: linear-gradient(210deg, #bdbdbd 0%, #ffffff 100%);
     min-width: 100vw;
@@ -17,15 +20,22 @@ body {
     flex-wrap: wrap;
 }
 
+/* div {
+    border: thick solid black;
+} */
+
 .box {
     min-width: 33.33%;
     min-height: 33.33%;
     font-size: 100px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 10vh;
 }
 
 #website, #facebook, #twitter, #instagram {
     color: black;
-    justify-content: center;
     text-align: center;
 }
 
@@ -63,7 +73,6 @@ body {
     background-image: url("img/cn_colour.svg");
     cursor: wait;
     transform: rotate(360deg);
-    /* transform-origin: center center; */
     transition: ease-in-out 0.8s;
 }
 
