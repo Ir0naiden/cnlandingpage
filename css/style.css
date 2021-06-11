@@ -5,9 +5,22 @@
 }
 
 body {
-    background-image: linear-gradient(210deg, #bdbdbd 0%, #ffffff 100%);
     min-width: 100vw;
     min-height: 100vh;
+    background: linear-gradient(-45deg, #fcf4f1, #b9b6b7, #72c3e0, #b676ff);
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .container {
