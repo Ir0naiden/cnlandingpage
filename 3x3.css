@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+
+* {box-sizing: border-box;}
+body {
+    background-image: linear-gradient(210deg, #bdbdbd 0%, #ffffff 100%);
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.container {
+    min-width: 100vh;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    min-width: 33.33%;
+    min-height: 33.33%;
+    font-size: 100px;
+}
+
+#website, #facebook, #twitter, #instagram {
+    color: black;
+    justify-content: center;
+    text-align: center;
+}
+
+#website:hover {
+    color:#F4B432;
+    transition: ease-in-out 0.3s;
+    text-shadow: 0 5px 15px rgb(255, 255, 255);
+}
+#facebook:hover {
+    color:#3b5998;
+    transition: ease-in-out 0.3s;
+    text-shadow: 0 5px 15px rgb(255, 255, 255);
+}
+#twitter:hover {
+    color:#1DA1F2;
+    transition: ease-in-out 0.3s;
+    text-shadow: 0 5px 15px rgb(255, 255, 255);
+}
+#instagram:hover {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: ease-in-out 0.3s;
+    text-shadow: 0 5px 15px rgb(255, 255, 255);
+}
+
+#cnlogo {
+    background-image: url("img/cn_black.svg");
+    background-repeat:no-repeat;
+}
+
+#cnlogo:hover {
+    background-image: url("img/cn_colour.svg");
+    cursor: wait;
+    transform: rotate(360deg);
+    /* transform-origin: center center; */
+    transition: ease-in-out 0.8s;
+}
+
+
+
+
+
+/* .box1 { background:#eccc68;}
+.box2 { background:#ff6348;}
+.box3 { background:#ff7f50;}
+.box4 { background:#ff4757;}
+.box5 { background:#f1c40f;}
+.box6 { background:#e67e22;}
+.box7 { background:#2ed573;}
+.box8 { background:#1e90ff;}
+.box9 { background:#c56cf0;}
+.box10 { background:#18dcff;} */
