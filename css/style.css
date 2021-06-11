@@ -65,12 +65,12 @@ body {
 }
 
 #cnlogo {
-    background-image: url("img/cn_black.svg");
+    background-image: url("/cnlandingpage/img/cn_black.svg");
     background-repeat:no-repeat;
 }
 
 #cnlogo:hover {
-    background-image: url("img/cn_colour.svg");
+    background-image: url("/cnlandingpage/img/cn_colour.svg");
     cursor: wait;
     transform: rotate(360deg);
     transition: ease-in-out 0.8s;
