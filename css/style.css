@@ -7,7 +7,7 @@
 body {
     /* min-width: 100vw;
     min-height: 100vh; */
-    background: linear-gradient(-45deg, #fcf4f1, #b9b6b7, #72c3e0, #b676ff);
+    background: linear-gradient(-45deg, #fcf4f1, #ffdfc4, #d5f4ff, #ddc5f8);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
@@ -54,33 +54,33 @@ a:visited {
 }
 
 #website:hover {
-    color:#F4B432;
-    transition: ease-in-out 0.3s;
-    filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 5px rgb(128, 128, 128));
-    -webkit-filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 5px rgb(128, 128, 128));
+    color:#264D9A;
+    transition: 0.3s cubic-bezier(0.85, 0, 0.15, 1);
+    filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 10px rgb(128, 128, 128));
+    -webkit-filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 10px rgb(128, 128, 128));
 }
 #facebook:hover {
     color:#3b5998;
-    transition: ease-in-out 0.3s;
-    filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 5px rgb(128, 128, 128));
-    -webkit-filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 5px rgb(128, 128, 128));
+    transition: 0.3s cubic-bezier(0, 0.8, 0.13, 0);
+    filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 10px rgb(128, 128, 128));
+    -webkit-filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 10px rgb(128, 128, 128));
 }
 #twitter:hover {
     color:#1DA1F2;
-    transition: ease-in-out 0.3s;
-    filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 5px rgb(128, 128, 128));
-    -webkit-filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 5px rgb(128, 128, 128));
+    transition: 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 10px rgb(128, 128, 128));
+    -webkit-filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 10px rgb(128, 128, 128));
 }
 #instagram:hover {
     color: transparent;
+    transition: ease-in-out 0.3s;
     -webkit-text-fill-color: transparent;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     background-clip: text;
     -webkit-background-clip: text;
-    transition: ease-in-out 0.3s;
-    filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 5px rgb(128, 128, 128));
-    -webkit-filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 5px rgb(128, 128, 128));
+    filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 10px rgb(128, 128, 128));
+    -webkit-filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 10px rgb(128, 128, 128));
 }
 
 #cnlogo {
