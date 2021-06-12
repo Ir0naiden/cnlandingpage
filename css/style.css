@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
 * {
     box-sizing: border-box;
@@ -50,7 +50,7 @@ a {
 }
 
 a:visited {
-    color: rgb(134, 35, 113);
+    color: rgb(35, 122, 134);
 }
 
 #website:hover {
