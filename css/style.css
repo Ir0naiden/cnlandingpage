@@ -55,39 +55,32 @@ a:visited {
 
 #website:hover {
     color:#F4B432;
-    /* transition: ease-in-out 0.3s; */
-    text-shadow: 0px 3px 0px #b2a98f,
-                 0px 14px 10px rgba(0,0,0,0.15),
-                 0px 24px 2px rgba(0,0,0,0.1),
-                 0px 34px 30px rgba(0,0,0,0.1);
+    transition: ease-in-out 0.3s;
+    filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 5px rgb(128, 128, 128));
+    -webkit-filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 5px rgb(128, 128, 128));
 }
 #facebook:hover {
     color:#3b5998;
     transition: ease-in-out 0.3s;
-    text-shadow: 0px 3px 0px #b2a98f,
-                 0px 14px 10px rgba(0,0,0,0.15),
-                 0px 24px 2px rgba(0,0,0,0.1),
-                 0px 34px 30px rgba(0,0,0,0.1);
+    filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 5px rgb(128, 128, 128));
+    -webkit-filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 5px rgb(128, 128, 128));
 }
 #twitter:hover {
     color:#1DA1F2;
     transition: ease-in-out 0.3s;
-    text-shadow: 0px 3px 0px #b2a98f,
-                 0px 14px 10px rgba(0,0,0,0.15),
-                 0px 24px 2px rgba(0,0,0,0.1),
-                 0px 34px 30px rgba(0,0,0,0.1);
+    filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 5px rgb(128, 128, 128));
+    -webkit-filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 5px rgb(128, 128, 128));
 }
 #instagram:hover {
-    color: #125688;
-    /* background: radial-gradient(circle at 50% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    background: radial-gradient(circle at 50% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     background-clip: text;
-    -webkit-background-clip: text; */
+    -webkit-background-clip: text;
     transition: ease-in-out 0.3s;
-    text-shadow: 0px 3px 0px #b2a98f,
-                 0px 14px 10px rgba(0,0,0,0.15),
-                 0px 24px 2px rgba(0,0,0,0.1),
-                 0px 34px 30px rgba(0,0,0,0.1);
+    filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 5px rgb(128, 128, 128));
+    -webkit-filter:drop-shadow(0px 3px 0px #c7c7c7) drop-shadow(0px 10px 5px rgb(128, 128, 128));
 }
 
 #cnlogo {
