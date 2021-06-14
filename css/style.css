@@ -2,11 +2,13 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    /* min-width: 100vw;
-    min-height: 100vh; */
+    min-width: 100vw;
+    min-height: 100vh;
     background: linear-gradient(-45deg, #fcf4f1, #ffdfc4, #d5f4ff, #ddc5f8);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
@@ -25,18 +27,17 @@ body {
 }
 
 .container {
-    min-width: 100vh;
+    min-width: 100vw;
     min-height: 100vh;
-    margin: 0;
     display: flex;
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
 }
 
-/* div {
+div {
     border: thick solid black;
-} */
+}
 
 .box {
     min-width: 33.33%;
@@ -90,29 +91,9 @@ a:visited {
 
 #cnlogo:hover {
     background-image: url("/cnlandingpage/img/cn_colour.svg");
-    cursor: wait;
     transform: rotate(360deg);
     transition: ease-in-out 0.8s;
 }
-
-
-
-
-
-/* .box1 { background:#eccc68;}
-.box2 { background:#ff6348;}
-.box3 { background:#ff7f50;}
-.box4 { background:#ff4757;}
-.box5 { background:#f1c40f;}
-.box6 { background:#e67e22;}
-.box7 { background:#2ed573;}
-.box8 { background:#1e90ff;}
-.box9 { background:#c56cf0;}
-.box10 { background:#18dcff;} */
-
-
-
-
 
 /* BOB ANIMATION */
 /* Bob */
