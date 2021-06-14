@@ -27,8 +27,8 @@ body {
 }
 
 .container {
-    min-width: 100vw;
-    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: stretch;
     flex-wrap: wrap;
@@ -39,8 +39,8 @@ div {
 }
 
 .box {
-    min-width: 33.33%;
-    max-height: 33.33%;
+    width: 33.33%;
+    height: 33.33%;
     font-size: 100px;
     text-align: center;
     padding-top: 5vh;
@@ -98,18 +98,18 @@ a:visited {
 @media only screen and (max-width: 1000px){
   .box {
     width: 50%;
-    height: 33.33vh;
-    padding: 8vh;
+    height: 33.33%;
+    padding: 8%;
   }
 
   .logobox {
     width: 100%;
-    height: 33.33vh;
+    height: 33.33%;
     padding: 5%;
   }
 
   #cnlogo {
-    width: 60vw;
+    width: 60%;
     height: auto;
   }
 
@@ -121,13 +121,13 @@ a:visited {
 @media only screen and (max-width: 768px){
   .box {
     width: 50%;
-    height: 33.33vh;
-    padding-top: 5vh;
+    height: 33.33%;
+    padding-top: 15%;
   }
 
   .logobox {
     width: 100%;
-    height: 33.33vh;
+    height: 33.33%;
   }
 
   #cnlogo {
