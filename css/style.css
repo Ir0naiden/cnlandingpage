@@ -34,9 +34,9 @@ body {
     flex-wrap: wrap;
 }
 
-div {
+/* div {
     border: thick solid black;
-}
+} */
 
 .box {
     width: 33.33%;
