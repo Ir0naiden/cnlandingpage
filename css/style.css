@@ -30,7 +30,7 @@ body {
     min-width: 100vw;
     min-height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: stretch;
     flex-wrap: wrap;
 }
 
@@ -99,7 +99,7 @@ a:visited {
   .box {
     width: 50%;
     height: 33.33vh;
-    padding: 10%;
+    padding: 8vh;
   }
 
   .logobox {
@@ -122,7 +122,7 @@ a:visited {
   .box {
     width: 50%;
     height: 33.33vh;
-    padding: 10%;
+    padding-top: 5vh;
   }
 
   .logobox {
